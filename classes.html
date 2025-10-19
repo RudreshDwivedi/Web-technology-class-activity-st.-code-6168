@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Page B — Class Selectors</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="center">
+    <h1 class="big">Page B — Class Selectors</h1>
+    <div class="navlinks">
+      <a class="btn" href="index.html">Page A (IDs)</a> |
+      <a class="btn" href="classes.html">Page B (Classes)</a> |
+      <a class="btn" href="tags.html">Page C (Tags)</a>
+    </div>
+  </header>
+
+  <main style="max-width:1000px;margin:16px auto;padding:12px;">
+    <section class="row">
+      <article class="col card">
+        <h2 class="small">Card 1</h2>
+        <p>This is content in a <span class="highlight">highlight</span> card.</p>
+        <a class="btn" href="#">Read more</a>
+      </article>
+
+      <article class="col card">
+        <h2 class="small">Card 2</h2>
+        <p>Another card using the <code>card</code> class.</p>
+        <a class="btn" href="#">Read more</a>
+      </article>
+
+      <article class="col card">
+        <h2 class="small">Card 3</h2>
+        <p>Cards show repeated class use — that's the point.</p>
+        <a class="btn" href="#">Read more</a>
+      </article>
+    </section>
+
+    <section style="margin-top:16px;">
+      <div class="center">
+        <button class="btn">Primary Action</button>
+        <button class="btn">Secondary Action</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="center">Page built using 10+ class selectors (card, btn, big, small, center, row, col, highlight, etc.)</footer>
+</body>
+</html>

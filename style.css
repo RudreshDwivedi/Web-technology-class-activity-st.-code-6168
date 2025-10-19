@@ -1,0 +1,42 @@
+/* styles.css - shared */
+
+/* ===== Page A (ID selectors) ===== */
+#header { font-size: 28px; text-align:center; padding:12px; background: #f2f2f2; }
+#logo { width:120px; display:block; margin:8px auto; }
+#main { max-width:900px; margin:20px auto; padding:16px; }
+#intro { font-style: italic; margin-bottom:12px; }
+#features { display:flex; gap:10px; flex-wrap:wrap; }
+#feat1, #feat2, #feat3, #feat4, #feat5 { flex:1 1 180px; padding:10px; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,0.1); }
+#signup { margin-top:16px; text-align:center; }
+#email { padding:8px 10px; width:60%; }
+#submitBtn { padding:10px 16px; border-radius:6px; cursor:pointer; }
+#footer { text-align:center; margin-top:24px; font-size:14px; color:#666; }
+
+/* ===== Page B (Class selectors) ===== */
+.card { border-radius:10px; padding:12px; box-shadow:0 1px 4px rgba(0,0,0,0.08); }
+.btn { padding:8px 12px; border-radius:6px; cursor:pointer; display:inline-block; text-decoration:none; }
+.big { font-size:20px; }
+.small { font-size:14px; }
+.center { text-align:center; }
+.row { display:flex; gap:10px; flex-wrap:wrap; }
+.col { flex:1 1 200px; }
+.highlight { background:#fffbdd; border-left:4px solid #ffd24d; padding:8px; }
+
+/* ===== Page C (Tag selectors) ===== */
+body { font-family: Arial, Helvetica, sans-serif; line-height:1.5; margin:0; padding:0; background:#ffffff; color:#222; }
+h1 { font-size:26px; margin:12px 0; }
+h2 { font-size:20px; margin:10px 0; }
+p  { margin:8px 0; }
+ul  { margin:8px 0 16px 20px; }
+li  { margin:6px 0; }
+a   { color: #1a73e8; text-decoration:none; }
+nav  { padding:10px; background:#f7f7f7; border-bottom:1px solid #eee; }
+img  { max-width:100%; height:auto; display:block; }
+button{ padding:8px 12px; border-radius:6px; cursor:pointer; border:1px solid #ccc; background:#fff; }
+input { padding:8px; border:1px solid #ccc; border-radius:4px; }
+form  { margin:12px 0; }
+section{ padding:12px; }
+footer { font-size:13px; padding:12px; text-align:center; color:#666; }
+
+/* helper for nav links used across pages */
+.navlinks { display:flex; gap:8px; justify-content:center; margin-top:8px; }
